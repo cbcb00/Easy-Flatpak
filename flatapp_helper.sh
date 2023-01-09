@@ -50,7 +50,6 @@ options=(
     "Calibre 28"
     "Tor-launcher 29"
     "Peazip 30"
-    "Close 55"
 )
 
 select opt in "${options[@]}"
