@@ -19,12 +19,12 @@ cd Easy-Flatpak
 ```
 Run the script
 ```
-./flatapp_helper.sh
+./easy_flatpak.sh
 ```
 To close simply press 'Ctrl+c'
 
-# Issues
+# Possible Issues
 If you are unable to run the script, you would need to make it executable, you can do that by copying below.
 ```
-chmod +x flatapp_helper.sh
+chmod +x easy_flatpak.sh
 ```
