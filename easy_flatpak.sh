@@ -8,16 +8,13 @@ BRed='\033[1;31m'
 echo -e "A script to easily install the most used flatpaks!\n"
 sleep 2
 
-user=$(whoami)
-echo -e "Nice to meet you $user!\n"
-sleep 3
 echo "This script only installs flatpak apps from flathub"
 echo -e "${BRed}Warning: Make sure to have setup flatpak & flathub before using this script\n"
 sleep 3
 echo -e "${BYellow}Type the corresponding number to install an app ex:1 for Brave, type multiple numbers followed by a space to install multiple apps ex:1 2 3${NC} \n"
 echo -e "Enjoy! To close the script at any time, press Ctrl+c \n"
 
-# Ask the user to select which apps to install
+# Asks the user to select which apps to install
 echo "Select which apps to install:"
 options=(
     "Brave 1"
