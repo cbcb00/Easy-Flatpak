@@ -17,14 +17,17 @@ Then move to the directory
 ```
 cd Easy-Flatpak
 ```
+You would need to make the script executable, you can do that by copying below.
+```
+chmod +x easy_flatpak.sh
+```
 Run the script
 ```
 ./easy_flatpak.sh
 ```
 To close simply press 'Ctrl+c'
 
-# Possible Issues
-If you are unable to run the script, you would need to make it executable, you can do that by copying below.
+# Issues
 ```
-chmod +x easy_flatpak.sh
+Installing multiple apps is not possible for now
 ```
