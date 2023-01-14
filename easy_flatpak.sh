@@ -62,7 +62,7 @@ do
             ;;
         "FDM 3")
             # Install FDM
-            flatpak install -y org.telegram.desktop
+            flatpak install -y org.freedownloadmanager.Manager
             ;;
         "VLC 4")
             # Install VLC
