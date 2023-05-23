@@ -174,9 +174,9 @@ do
             flatpak install -y flathub io.github.peazip.PeaZip
             ;;
         "Gnome-Podcasts 31")
-            # Install Podcast app
-            flatpak install -y flathub org.gnome.Podcasts
-            ;;
+            # Install Flatseal
+            flatpak install -y flathub org.gnome.Podcasts
+            ;;
         *) echo "Invalid option";;
     esac
 done
