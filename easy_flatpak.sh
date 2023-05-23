@@ -47,6 +47,7 @@ options=(
     "Calibre 28"
     "Tor-launcher 29"
     "Peazip 30"
+    "Gnome-Podcasts 31"
 )
 
 select opt in "${options[@]}"
@@ -172,6 +173,10 @@ do
             # Install Peazip
             flatpak install -y flathub io.github.peazip.PeaZip
             ;;
+        "Gnome-Podcasts 31")
+            # Install Podcast app
+            flatpak install -y flathub org.gnome.Podcasts
+            ;;
         *) echo "Invalid option";;
     esac
 done
