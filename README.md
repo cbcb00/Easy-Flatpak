@@ -5,8 +5,6 @@ One of the issues I face when installing a new distro is having to install all t
 
 This is my first every script, created using Bash so expect things to look quite janky :)
 
-Note: Parts of this script was fetched using ChatGPT
-
 # Usage
 
 To run the script, clone into this repo
